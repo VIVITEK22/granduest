@@ -1,0 +1,9 @@
+<svg width="14.000000" height="11.000000" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs/>
+	<rect id="div.arrow-ico" rx="1.200000" width="13.200000" height="2.400000" transform="translate(-0.805176 4.011719)" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="::before" x="6.174805" y="9.731445" rx="1.202085" width="8.400434" height="2.404170" transform="rotate(-45 6.174805 9.731445)" fill="#FFFFFF" fill-opacity="1.000000"/>
+	<rect id="::after" x="7.875000" y="-1.008789" rx="1.202085" width="8.400434" height="2.404170" transform="rotate(45 7.875000 -1.008789)" fill="#FFFFFF" fill-opacity="1.000000"/>
+</svg>

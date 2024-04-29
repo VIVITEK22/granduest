@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Geometria";
+  font-weight: 400;
+  src: url("../fonts/Geometria.woff2") format("woff2"),
+    url("../fonts/Geometria.woff") format("woff"),
+    url("../fonts/Geometria.eot") format("eot");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geometria";
+  font-weight: 500;
+  src: url("../fonts/Geometria-Medium.woff2") format("woff2"),
+    url("../fonts/Geometria-Medium.woff") format("woff"),
+    url("../fonts/Geometria-Medium.eot") format("eot");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geometria";
+  font-weight: 700;
+  src: url("../fonts/Geometria-Bold.woff2") format("woff2"),
+    url("../fonts/Geometria-Bold.woff") format("woff"),
+    url("../fonts/Geometria-Bold.eot") format("eot");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geometria";
+  font-weight: 800;
+  src: url("../fonts/Geometria-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Geometria-ExtraBold.woff") format("woff"),
+    url("../fonts/Geometria-ExtraBold.eot") format("eot");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geometria";
+  font-weight: 300;
+  src: url("../fonts/Geometria-Light.woff2") format("woff2"),
+    url("../fonts/Geometria-Light.woff") format("woff"),
+    url("../fonts/Geometria-Light.eot") format("eot");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima-Nova";
+  font-weight: 700;
+  src: url("../fonts/Proxima-Nova-Bold.woff2") format("woff2"),
+    url("../fonts/Proxima-Nova-Bold.woff") format("woff"),
+    url("../fonts/Proxima-Nova-Bold.eot") format("eot");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima-Nova";
+  font-weight: 600;
+  src: url("../fonts/Proxima-Nova-Semibold.woff2") format("woff2"),
+    url("../fonts/Proxima-Nova-Semibold.woff") format("woff"),
+    url("../fonts/Proxima-Nova-Semibold.eot") format("eot");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Proxima-Nova";
+  font-weight: 400;
+  src: url("../fonts/Proxima-Nova-Regular.woff2") format("woff2"),
+    url("../fonts/Proxima-Nova-Regular.woff") format("woff"),
+    url("../fonts/Proxima-Nova-Regular.eot") format("eot");
+  font-style: normal;
+  font-display: swap;
+}

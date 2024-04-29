@@ -1,0 +1,14 @@
+<svg width="30.000000" height="30.000000" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2212_921">
+			<rect id="vkontakte" width="30.000000" height="30.000000" transform="translate(-0.205078 -0.018555)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="vkontakte" width="30.000000" height="30.000000" transform="translate(-0.205078 -0.018555)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip2212_921)">
+		<path id="Vector" d="M14.79 -0.02C6.49 -0.02 -0.21 6.68 -0.21 14.98C-0.21 23.28 6.49 29.98 14.79 29.98C23.09 29.98 29.79 23.28 29.79 14.98C29.79 6.68 23.09 -0.02 14.79 -0.02ZM21.29 21.58C20.49 19.18 18.59 17.38 16.09 17.08L16.09 21.58L15.79 21.58C8.99 21.58 5.09 16.88 4.89 9.08L8.29 9.08C8.39 14.78 10.89 17.28 12.89 17.78L12.89 9.08L16.09 9.08L16.09 13.98C18.09 13.78 20.09 11.48 20.79 9.08L23.99 9.08C23.49 12.08 21.19 14.38 19.59 15.28C21.19 16.08 23.79 17.98 24.69 21.58L21.29 21.58Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
