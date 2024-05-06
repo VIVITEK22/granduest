@@ -28,33 +28,18 @@ const swiper2 = new Swiper(".slider__body", {
   }
 });
 
-for (item of document.querySelectorAll(".value__item")) {
+for (let item of document.querySelectorAll(".value__item")) {
   item.onclick = function(e) {
     document.querySelector(".value__item--active").classList.remove("value__item--active");
     e.target.classList.add("value__item--active");
   }
 }
 
-let input = document.querySelector(".form-select > input");
-input.onclick = function(e) {
-  if (e.target.checked) {
-    document.querySelector(".value__form-bottom").classList.add("input--active");
-    for (item of document.querySelectorAll(".value__form-bottom input")) {
-      item.disabled = false;
-    }
-  } else {
-    document.querySelector(".value__form-bottom").classList.remove("input--active");
-    for (item of document.querySelectorAll(".value__form-bottom input")) {
-      item.disabled = true;
-    }
-  }
-}
-
-let inputTwo = document.querySelector(".colors__check-group > input")
+let inputTwo = document.querySelector(".colors__check-group > span")
 inputTwo.onclick = function(e) {
   if (e.target.checked) {
     document.querySelector(".colors__lamination-list").classList.add("input--active");
-    for (item of document.querySelectorAll(".colors__lamination-list input")) {
+    for (let item of document.querySelectorAll(".colors__lamination-list input")) {
       item.disabled = false;
     }
     let select = document.querySelector(".colors__select")
@@ -62,7 +47,7 @@ inputTwo.onclick = function(e) {
     select.querySelector(".colors__select-item").disabled = false;
   } else {
     document.querySelector(".colors__lamination-list").classList.remove("input--active");
-    for (item of document.querySelectorAll(".colors__lamination-list input")) {
+    for (let item of document.querySelectorAll(".colors__lamination-list input")) {
       item.disabled = true;
     }
     let select = document.querySelector(".colors__select")
@@ -71,14 +56,39 @@ inputTwo.onclick = function(e) {
   }
 }
 
-console.log(document.querySelector(".radio-border::before"))
-
-for (item of document.querySelectorAll(".colors__profile-list .radio-border")) {
+for (let item of document.querySelectorAll(".colors__profile-list .radio-border")) {
   let bg = item.classList[2];
   item.querySelector("div").style.background = colors[bg];
 }
 
-for (item of document.querySelectorAll(".colors__seal-list .radio-border")) {
+for (let item of document.querySelectorAll(".colors__seal-list .radio-border")) {
   let bg = item.classList[2];
   item.querySelector("div").style.background = colors[bg];
+}
+
+for (let div of document.querySelectorAll(".form-select > span")) {
+  div.onclick = function(e) {
+    e.target.classList.toggle("span--active");
+    if (document.querySelector(".value__form-group > input").checked) {
+      document.querySelector(".value__form-group > input").checked = false;
+    } else {
+      document.querySelector(".value__form-group > input").checked = true;
+    }
+    input(1);
+  }
+}
+
+function input(el) {
+  if (input1.checked) {
+    document.querySelector(".value__form-bottom").classList.add("input--active");
+    for (let item of document.querySelectorAll(".value__form-bottom input")) {
+      item.disabled = false;
+    }
+  } else {
+    document.querySelector(".value__form-bottom").classList.remove("input--active");
+    for (let item of document.querySelectorAll(".value__form-bottom input")) {
+      item.disabled = true;
+    }
+  }
+
 }
